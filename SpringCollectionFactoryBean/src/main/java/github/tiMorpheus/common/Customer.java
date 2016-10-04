@@ -1,13 +1,22 @@
 package github.tiMorpheus.common;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
-public class Customer
-{
+public class Customer {
+
     private List lists;
     private Set sets;
+    private Map maps;
 
+    public Map getMaps() {
+        return maps;
+    }
+
+    public void setMaps(Map maps) {
+        this.maps = maps;
+    }
 
     public List getLists() {
         return lists;
@@ -30,6 +39,7 @@ public class Customer
         return "Customer{" +
                 "lists=" + lists +
                 ", sets=" + sets +
+                ", maps=" + maps +
                 '}';
     }
 }

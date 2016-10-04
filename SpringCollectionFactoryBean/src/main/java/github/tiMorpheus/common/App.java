@@ -16,5 +16,8 @@ public class App {
         Customer customer1 = (Customer) context.getBean("CustomerSetBean");
         System.out.println(customer1+ customer1.getSets().getClass().getName());
 
+        Customer customer2 = (Customer) context.getBean("CustomerMapBean");
+        System.out.println(customer2+ customer2.getMaps().getClass().getName());
+
     }
 }
