@@ -16,4 +16,14 @@
         </property>
     </bean>
 
+    <bean id="CustomerSetBean" class="github.tiMorpheus.common.Customer">
+        <property name="sets">
+            <util:set set-class="java.util.HashSet">
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </util:set>
+        </property>
+    </bean>
+
 </beans>
