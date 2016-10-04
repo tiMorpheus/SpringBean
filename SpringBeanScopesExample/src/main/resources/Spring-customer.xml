@@ -3,7 +3,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
+
+    <!--If you want a new ‘customerService’ bean instance, every time you call it, use prototype instead.-->
     <bean id="customerService"
-          class="github.tiMorpheus.customer.services.CustomerService" />
+          class="github.tiMorpheus.customer.services.CustomerService" scope="prototype" />
+
+
 
 </beans>
