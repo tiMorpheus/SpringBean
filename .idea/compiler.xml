@@ -23,10 +23,20 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="SpringBeanExample" />
+        <module name="SpringBeanScopesExample" />
+        <module name="SpringCollectionExample" />
+        <module name="SpringCollectionFactoryBean" />
+        <module name="SpringDataInject" />
+        <module name="SpringInnerBean" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringBeanExample" target="1.5" />
+      <module name="SpringBeanScopesExample" target="1.5" />
+      <module name="SpringCollectionExample" target="1.5" />
+      <module name="SpringCollectionFactoryBean" target="1.5" />
+      <module name="SpringDataInject" target="1.5" />
+      <module name="SpringInnerBean" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

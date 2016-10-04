@@ -4,6 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringBean.iml" filepath="$PROJECT_DIR$/SpringBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBeanExample/SpringBeanExample.iml" filepath="$PROJECT_DIR$/SpringBeanExample/SpringBeanExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBeanScopesExample/SpringBeanScopesExample.iml" filepath="$PROJECT_DIR$/SpringBeanScopesExample/SpringBeanScopesExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCollectionExample/SpringCollectionExample.iml" filepath="$PROJECT_DIR$/SpringCollectionExample/SpringCollectionExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCollectionFactoryBean/SpringCollectionFactoryBean.iml" filepath="$PROJECT_DIR$/SpringCollectionFactoryBean/SpringCollectionFactoryBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDataInject/SpringDataInject.iml" filepath="$PROJECT_DIR$/SpringDataInject/SpringDataInject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringInnerBean/SpringInnerBean.iml" filepath="$PROJECT_DIR$/SpringInnerBean/SpringInnerBean.iml" />
     </modules>
   </component>
 </project>
