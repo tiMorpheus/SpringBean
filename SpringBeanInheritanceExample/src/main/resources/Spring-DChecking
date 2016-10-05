@@ -3,10 +3,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean id="employerBean" class="github.tiMorpheus.common.Employer"
-        dependency-check="simple">
-        <property name="person" ref="PersonBean"/>
-        <!--<property name="type" value="1" />-->
+    <bean id="employerBean" class="github.tiMorpheus.common.Employer">
+
+        <!--<property name="person" ref="PersonBean"/>-->
+        <property name="type" value="1" />
         <property name="action" value="buy" />
     </bean>
 
