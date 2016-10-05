@@ -3,13 +3,18 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean id="BaseCustomerUkraine" class="github.tiMorpheus.common.Customer">
+    <bean id="BaseCustomerUkraine"  abstract="true">
         <property name="country" value="Ukraine" />
     </bean>
 
-    <bean id="CustomerBean" parent="BaseCustomerUkraine">
+    <bean id="CustomerBean" parent="BaseCustomerUkraine"
+          class="github.tiMorpheus.common.Customer">
+
+
+        <property name="country" value="USA" />
         <property name="action" value="buy" />
         <property name="type" value="1" />
+
     </bean>
 
 
