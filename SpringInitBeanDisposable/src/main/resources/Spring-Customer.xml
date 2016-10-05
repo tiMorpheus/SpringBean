@@ -3,7 +3,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean id="customerService" class="github.tiMorpheus.services.CustomerService">
+    <bean id="customerService" class="github.tiMorpheus.services.CustomerService"
+    init-method="initIt" destroy-method="cleanUp">
         <property name="message" value="i'm property message" />
     </bean>
 

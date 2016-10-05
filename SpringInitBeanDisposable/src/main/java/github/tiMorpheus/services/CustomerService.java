@@ -1,9 +1,7 @@
 package github.tiMorpheus.services;
 
-import org.springframework.beans.factory.DisposableBean;
-import org.springframework.beans.factory.InitializingBean;
 
-public class CustomerService implements InitializingBean, DisposableBean {
+public class CustomerService {
 
     String message;
 
@@ -15,12 +13,12 @@ public class CustomerService implements InitializingBean, DisposableBean {
         this.message = message;
     }
 
-    public void destroy() throws Exception {
+    public void cleanUp() throws Exception {
         System.out.println("Spring Container is destroy! Customer clean up");
 
     }
 
-    public void afterPropertiesSet() throws Exception {
+    public void initIt() throws Exception {
         System.out.println("Init method after properties are set : " + message);
 
     }
