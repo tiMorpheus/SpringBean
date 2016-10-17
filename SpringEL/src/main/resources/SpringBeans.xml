@@ -16,6 +16,7 @@
     </bean>
 
     <content:component-scan base-package="github.tiMorpheus.core" />
+    <content:component-scan base-package="github.tiMorpheus.beanInject" />
 
 
 
